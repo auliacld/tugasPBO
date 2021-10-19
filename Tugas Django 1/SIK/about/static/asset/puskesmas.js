@@ -1,0 +1,14 @@
+var puskesmas = {
+"type": "FeatureCollection",
+"name": "PUSKESMAS_PT_25K",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "NAMOBJ": "Puskesmas Walantaka", "FCODE": null, "LCODE": "GI0020", "SRS_ID": null, "REMARK": "Puskesmas\/Puskesmas Pembantu", "METADATA": null, "KWKPKM_": 0, "KMPPKM_": 0, "JPLPKM_": 0, "PKMKODE_": null, "PKMKAT_": 0, "PKMLMT_": null }, "geometry": { "type": "Point", "coordinates": [ 106.221541217000038, -6.157657653999934, 0.0 ] } },
+{ "type": "Feature", "properties": { "NAMOBJ": "Puskesmas Serang Girang", "FCODE": null, "LCODE": "GI0020", "SRS_ID": null, "REMARK": "Puskesmas\/Puskesmas Pembantu", "METADATA": null, "KWKPKM_": 0, "KMPPKM_": 0, "JPLPKM_": 0, "PKMKODE_": null, "PKMKAT_": 0, "PKMLMT_": null }, "geometry": { "type": "Point", "coordinates": [ 106.159865302000071, -6.144726050999964, 0.0 ] } },
+{ "type": "Feature", "properties": { "NAMOBJ": "Puskesmas Sawahluhur", "FCODE": null, "LCODE": "GI0020", "SRS_ID": null, "REMARK": "Puskesmas\/Puskesmas Pembantu", "METADATA": null, "KWKPKM_": 0, "KMPPKM_": 0, "JPLPKM_": 0, "PKMKODE_": null, "PKMKAT_": 0, "PKMLMT_": null }, "geometry": { "type": "Point", "coordinates": [ 106.207632492000073, -6.031729173999963, 0.0 ] } },
+{ "type": "Feature", "properties": { "NAMOBJ": "Puskesmas Kilasah", "FCODE": null, "LCODE": "GI0020", "SRS_ID": null, "REMARK": "Puskesmas\/Puskesmas Pembantu", "METADATA": null, "KWKPKM_": 0, "KMPPKM_": 0, "JPLPKM_": 0, "PKMKODE_": null, "PKMKAT_": 0, "PKMLMT_": null }, "geometry": { "type": "Point", "coordinates": [ 106.188230450000049, -6.079055912999934, 0.0 ] } },
+{ "type": "Feature", "properties": { "NAMOBJ": "Puskesmas Pembantu Kelapa Dua", "FCODE": null, "LCODE": "GI0020", "SRS_ID": null, "REMARK": "Puskesmas\/Puskesmas Pembantu", "METADATA": null, "KWKPKM_": 0, "KMPPKM_": 0, "JPLPKM_": 0, "PKMKODE_": null, "PKMKAT_": 0, "PKMLMT_": null }, "geometry": { "type": "Point", "coordinates": [ 106.147464157000059, -6.105219318999957, 0.0 ] } },
+{ "type": "Feature", "properties": { "NAMOBJ": "Puskesmas Serang", "FCODE": null, "LCODE": "GI0020", "SRS_ID": null, "REMARK": "Puskesmas\/Puskesmas Pembantu", "METADATA": null, "KWKPKM_": 0, "KMPPKM_": 0, "JPLPKM_": 0, "PKMKODE_": null, "PKMKAT_": 0, "PKMLMT_": null }, "geometry": { "type": "Point", "coordinates": [ 106.169968648000065, -6.120103212999936, 0.0 ] } },
+{ "type": "Feature", "properties": { "NAMOBJ": "Puskesmas Singandaru", "FCODE": null, "LCODE": "GI0020", "SRS_ID": null, "REMARK": "Puskesmas\/Puskesmas Pembantu", "METADATA": null, "KWKPKM_": 0, "KMPPKM_": 0, "JPLPKM_": 0, "PKMKODE_": null, "PKMKAT_": 0, "PKMLMT_": null }, "geometry": { "type": "Point", "coordinates": [ 106.141618670000071, -6.114095378999934, 0.0 ] } }
+]
+}

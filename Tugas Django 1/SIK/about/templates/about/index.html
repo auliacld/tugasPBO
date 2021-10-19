@@ -1,0 +1,274 @@
+{% load static %} 
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/>
+    <link rel="stylesheet" href="asset/leaflet-panel-layers-master/src/leaflet-panel-layers.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+
+
+    <title>Webgis SIK!</title>
+    
+  </head>
+  <body>
+    
+	<div id="mapid" style="width: 100%; height: 720px;"></div>
+
+  </body>
+  	<script src="{% static 'asset/leaflet-panel-layers-master/src/leaflet-panel-layers.js' %}"></script>
+	<script src="{% static 'asset/rumah_sakit.js' %}"></script>
+	<script src="{% static 'asset/puskesmas.js' %}"></script>
+	<script src="{% static 'asset/saranaibadah.js' %}"></script>
+	<script src="{% static 'asset/spbu.js' %}"></script>
+	<script src="{% static 'asset/terminal.js' %}"></script>
+	<script src="{% static 'asset/pelabuhan.js' %}"></script>
+	<script src="{% static 'asset/stasiun.js' %}"></script>
+	<!-- <script src="asset/jalan.js"></script> -->
+	<script src="{% static 'serangg.js' %}"></script>
+	<script>
+
+		var petaku = L.map('mapid').setView([-6.1097337,106.140573,13.75], 12);
+
+	var LayerKita=L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
+			maxZoom: 18,
+			attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, ' +
+				'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+			id: 'mapbox/streets-v11',
+			tileSize: 512,
+			zoomOffset: -1
+		});
+petaku.addLayer(LayerKita);
+
+		//ini untuk marker
+var lokasi1 = L.icon ({iconUrl: "{%  static 'marker10.png' %}",
+   iconSize: [30,30],
+})
+		 L.marker([-6.119688141679527, 106.15261206797416], {icon:lokasi1}).addTo(petaku).bindPopup("<img src='https://satubanten.com/wp-content/uploads/2018/12/jemb.jpeg' width='200px' ><br></br> <b>Kampung Wisata Pancer</b><br>Desa Talaga, Banten</br><br>HTM : Rp 5000</br><br>Buka 24 Jam");;
+
+var lokasi2 = L.icon ({iconUrl: "{%  static 'marker11.png' %}",
+   iconSize: [30,30],
+})
+		L.marker([-6.157421956772187, 106.22178516792266], {icon:lokasi2}).addTo(petaku).bindPopup("<img src='https://satubanten.com/wp-content/uploads/2018/12/jemb.jpeg' width='200px' ><br></br> <b>Puskesmas Walantaka");;
+
+var lokasi3 = L.icon ({iconUrl: "{%  static 'marker4.png' %}",
+   iconSize: [30, 30],
+})
+
+		L.marker([-6.126997541965471, 106.14125825257959], {icon:lokasi3}).addTo(petaku).bindPopup("<img src='https://satubanten.com/wp-content/uploads/2018/12/jemb.jpeg' width='200px' ><br></br> <b>Masjid Jami Baiturrahman");;
+
+var lokasi4 = L.icon ({iconUrl: "{%  static 'marker5.png' %}",
+   iconSize: [30,30],
+})
+		L.marker([-6.102452266792512, 106.1626709679224], {icon:lokasi4}).addTo(petaku).bindPopup("<img src='https://satubanten.com/wp-content/uploads/2018/12/jemb.jpeg' width='200px' ><br></br> <b>SPBU");;
+
+var lokasi5 = L.icon ({iconUrl: "{%  static 'marker6.png' %}",
+   iconSize: [30,30],
+})
+		L.marker([-6.133658342788911, 106.16771926792254], {icon:lokasi5}).addTo(petaku).bindPopup("<img src='https://satubanten.com/wp-content/uploads/2018/12/jemb.jpeg' width='200px' ><br></br> <b>SPBU");;
+
+var lokasi6 = L.icon ({iconUrl: "{%  static 'marker11.png' %}",
+   iconSize: [30,30],
+})
+		L.marker([-6.0367361395148285, 106.1630213102506], {icon:lokasi6}).addTo(petaku).bindPopup("<img src='https://satubanten.com/wp-content/uploads/2018/12/jemb.jpeg' width='200px' ><br></br> <b>Pelabuhan Karangantu");;
+
+var lokasi7 = L.icon ({iconUrl: "{%  static 'marker13.png' %}",
+   iconSize: [30,30],
+})
+		L.marker([-6.155141386988072, 106.2187598237441], {icon:lokasi7}).addTo(petaku).bindPopup("<img src='https://satubanten.com/wp-content/uploads/2018/12/jemb.jpeg' width='200px' ><br></br> <b>Stasiun");;
+
+var lokasi8 = L.icon ({iconUrl: "{%  static 'marker9.png' %}",
+   iconSize: [30,30],
+})
+		L.marker([-6.036041561828956,106.15579411074715], {icon:lokasi8}).addTo(petaku).bindPopup("<img src='https://kelanaku.com/wp-content/uploads/2018/08/Museum-Situs-Kepurbakalaan-Banten-Lama-4.jpg' width='200px' ><br></br> <b>Museum Situs Kepurbakalaan</b><br>Luas lahan museum adalah 10.000 m², sedangkan luas gedungnya adalah 778 m²</br><br>HTM : Rp 20.000</br><br>Buka Pukul 09.00-16.00");;
+
+var lokasi9 = L.icon ({iconUrl: "{%  static 'marker9.png' %}",
+   iconSize: [30,30],
+})
+
+		L.marker([-6.131009443799214,106.15887732551664], {icon:lokasi9}).addTo(petaku).bindPopup("<img src='https://static.republika.co.id/uploads/images/inpicture_slide/situs-banten-girang-yang-ada-di-desa-sempu-kota-_191226084359-362.jpg' width='200px' ><br></br> <b>Situs Banten Girang</b><br>Situs Banten Girang dianggap sebagai cikal bakal dari terbentuknya wilayah Banten.</br><br>Buka 24 Jam");;
+
+var lokasi10 = L.icon ({iconUrl: "{%  static 'marker9.png' %}",
+   iconSize: [30,30],
+})
+		L.marker([-6.0363083,106.1536376,17], 
+		{icon:lokasi10}).addTo(petaku).bindPopup("<img src='https://i1.wp.com/centralnews.co.id/wp-content/uploads/2017/07/museum-situs-kepurbakalaan-banten-lama.jpeg?fit=960%2C640&ssl=1' width='200px' ><br></br> <b>Museum Situs Kepurbakalaan Banten Lama</b><br>Museum Situs Kepurbakalaan Banten Lama adalah museum umum yang berada di Kawasan Situs Banten Lama.</br><br>HTM : Rp 20.000,00</br><br>Buka : 09.00-16.00");;
+
+var lokasi11 = L.icon ({iconUrl: "{%  static 'marker9.png' %}",
+   iconSize: [30,30],
+})
+
+		L.marker([-6.1398941,106.2271868,17], 
+		{icon:lokasi11}).addTo(petaku).bindPopup("<img src='https://lh3.googleusercontent.com/p/AF1QipOF7hdJOC8XnqAun3_k9d6A5Cy-NeVs4TgkZ5Mo=s1600-w400' width='200px' ><br></br> <b> Kampung Wisata Pipitan, destinasi wisata yang terletak di Kelurahan Pipitan, Kecamatan Walantaka ini memberikan pemandangan yang ‘berbeda’ kepada masyarakat Kota Serang..</br><br>HTM : GRATIS</br><br>Buka : 08.00-22.00");;
+
+var lokasi12 = L.icon ({iconUrl: "{%  static 'marker9.png' %}",
+   iconSize: [30,30],
+})
+		L.marker([-6.150356265835513,106.2321525846551], {icon:lokasi12}).addTo(petaku).bindPopup("<img src='https://asset.satelitnews.id/data/2020/12/seken-situ.jpg' width='200px' ><br></br> <b>Taman Situ Ciwaka</b><br>Kawasan Situ Ciwaka, masih menjadi aset Provinsi Banten dan difungsikan sebagai cadangan air tanah. Taman yang berlokasi di Kelurahan Pengampelan, Kecamatan Walantaka, Banten ini merupakan lokasi wisata dengan daya tarik utama danau buatan dengan nama Situ Ciwaka.</br><br>Buka 24 Jam");;
+
+var lokasi13 = L.icon ({iconUrl: "{%  static 'marker9.png' %}",
+   iconSize: [30,30],
+})
+	L.marker([-6.030685316293803, 106.15059170859877],{icon:lokasi13}).addTo(petaku).bindPopup("<img src='https://s2.bukalapak.com/uploads/content_attachment/cf48a7eb10e8d762977842c5/w-744/5Menara-pengawas-kapal-di-bagian-utara-benteng-yang-berbatasan-dengan-parit.jpg' width='200px' ><br></br> <b>Benteng Speelwijk</b><br>Benteng Speelwijk, Benteng Penghormatan Untuk Jenderal Hindia Belanda. Bebatuan berwarna merah sisa Benteng Speelwijk di Kampung Pamarican, Serang, Banten</br><br>HTM / Tiket Masuk : 20.000</br><br>Buka Pukul : 24 Jam");;
+
+var lokasi14 = L.icon ({iconUrl: "{%  static 'marker9.png' %}",
+   iconSize: [30,30],
+})
+
+L.marker([-6.025320426102536,106.16556914068401], {icon:lokasi14}).addTo(petaku).bindPopup("<img src='https://satubanten.com/wp-content/uploads/2020/07/IMG_20200718_070526.jpg' width='200px' ><br></br> <b>Pantai Gope</b><br>Pantai Gope (Rp 500 alias gope), disini bisa menikmati liburan keluarga yang cukup memuaskan. Mulai dari mancing, berenang, hingga penitipan kendaraan pun digratiskan.Bahkan di Pantai Gope tersebut, terdapat tiga pulau yang bisa dikunjungi untuk berlibur.</br><br>HTM : Rp 5.00</br><br>Buka Pukul 07.00 - 17.00 ");;
+
+var lokasi15 = L.icon ({iconUrl: "{%  static 'marker9.png' %}",
+   iconSize: [30,30],
+})
+
+L.marker([-6.026243874273312,106.16434939675774], {icon:lokasi15}).addTo(petaku).bindPopup("<img src='https://satubanten.com/wp-content/uploads/2018/12/jemb.jpeg' width='200px' ><br></br> <b>Kampung Wisata Pancer</b><br> Di kampung wisata pancer ini berbagai macam spot-spot selfie yang keren dan instagramable, salah satu spot favorit disini adalah spot foto di jembatan cinta.</br><br>HTM : Rp 5000</br><br>Buka 24 Jam");;
+
+var lokasi16 = L.icon ({iconUrl: "{%  static 'marker9.png' %}",
+   iconSize: [30, 30],
+})
+
+L.marker([-6.115759269459112, 106.15007573457537], {icon:lokasi16}).addTo(petaku).bindPopup("<img src='https://newsmedia.co.id/cp-pub/uploads/images/post/2018/01/museum_banten.jpg' width='200px' ><br></br> <b>Museum Negeri Banten</b><br>Jl. Brigjen KH Samun No.5, Kotabaru, Kec. Serang, Kota Serang, Banten 4211</br><br>Gedung Bersejarah mantan kantor Residen Banten dan Pendopo Lama Gubernur Banten yang diresmikan tanggal 29 Oktober 2015</br><br>Buka Pukul 09.00-15.00");;
+
+
+var lokasi17 = L.icon ({iconUrl: "{%  static 'marker9.png' %}",
+   iconSize: [30, 30],
+})
+
+L.marker([- 6.143810730761357, 106.10406550851273], {icon:lokasi17}).addTo(petaku).bindPopup("<img src= 'https://lh5.googleusercontent.com/p/AF1QipOzxKn5A-4Bg9r5ODaUvxpVxP9oqZKiRg4kyrcp=w408-h306-k-no ' width='200px' ><br></br> <b> Batu Gede Sayar </b><br> Wisata Batu Gede Sayar merupakan objek wisata berupa bukit yang terletak di Kampung Batu Gede, Kelurahan Sayar, Kecamatan Taktakan, Kota Serang. Taman ini berada di ketinggian sekitar 150 mdpl dan berjarak lebih kurang 7 km dari pusat kota.</br><br>Tarif biaya parkir RP. 5000 </br><br>Buka 24 Jam");;
+
+var lokasi18 = L.icon ({iconUrl: "{%  static 'marker9.png' %}",
+   iconSize: [30, 30],
+})
+L.marker([-6.134855494904231, 106.19485652564568], 
+{icon:lokasi18}).addTo(petaku).bindPopup("<img src='https://faktabanten.co.id/wp-content/uploads/2018/03/HUTAN-KOTA-SERANG.jpg' width='200px' ><br></br> <b>Hutan Kota Serang </b><br>Jl. Syekh Moh. Nawawi Albantani No.20, Banjarsari, Kec. Cipocok Jaya, Kota Serang, Banten 42123</br><br>HTM : Rp 3.000,00</br><br>Buka : - ");;
+
+var lokasi19 = L.icon ({iconUrl: "{%  static 'marker9.png' %}",
+   iconSize: [30, 30],
+})
+L.marker([-6.038435170913366, 106.15706686792186], 
+{icon:lokasi19}).addTo(petaku).bindPopup("<img src='https://mui.or.id/wp-content/uploads/2019/04/1__IMG_6692_2_Keraton_Surosowan_terletak_di_Desa_Banten_Kecamatan_Kasemen_kawasan_Banten_Lama.jpg’ width='200px' ><br></br> <b>Keraton Surosowan </b><br>Keraton Surosowan adalah sebuah keraton di Banten. Keraton ini dibangun sekitar tahun 1522-1526 pada masa pemerintahan Maulana Hasanuddin, yang kemudian dikenal sebagai pendiri dari Kesultanan Banten.</br><br>HTM : 20.000</br><br>Buka : Waktu : 24 Jam");;
+
+var lokasi20 = L.icon ({iconUrl: "{%  static 'marker9.png' %}",
+   iconSize: [30, 30],
+})
+L.marker([-6.029697282051288, 106.1487901728973], 
+{icon:lokasi20}).addTo(petaku).bindPopup("<https://indonesiakaya.com/wp-content/uploads/2020/10/Vihara_Avalokitesvara_1200.jpg ' width='200px' ><br></br> <b>VIhara Avalokitesvara Serang</b><br>vihara ini sudah dibangun sejak abad 16. Pembangunan vihara ini juga tidak bisa dilepaskan dari Sunan Gunung Jati, salah satu dari sembilan wali penyebar agama Islam di Indonesia. Inilah Vihara Avalokitesvara yang terletak 15 km arah utara dari Kota Serang, Banten.</br><br>HTM : Rp 3.000,00</br><br>Buka : - ");;
+
+var lokasi21 = L.icon ({iconUrl: "{%  static 'marker9.png' %}",
+   iconSize: [30, 30],
+})
+L.marker([-6.132633244553274, 106.15999242559396], 
+{icon:lokasi21}).addTo(petaku).bindPopup("<img src='https://static.republika.co.id/uploads/images/inpicture_slide/pemeliharaan-situs-banten-girang-di-serang-masih-mengandalkan-sumbangan-masyarakat-_191226083110-784.jpg' width='200px' ><br></br> <b> Goa Banten Girang</b><br>Goa Banten Girang terletak di pinggir sungai Cibanten,  Kampung Tirtalaya, Desa Saebulu, Kec. Serang Kota Serang Banten. Goa itu sudah ada sebelum masuknya Islam di banten. Awal mulai tempat tersebut di pakai tentara untuk kepentingan kemasyarakatan semasa kerajaan banten. </br><br>HTM : Gratis</br><br>Buka :  24 Jam ");;
+
+var lokasi22 = L.icon ({iconUrl: "{%  static 'marker9.png' %}",
+   iconSize: [30, 30],})
+L.marker([-6.192480586094773, 106.15291260356967], 
+{icon:lokasi22}).addTo(petaku).bindPopup("<img src='https://cdns.klimg.com/merdeka.com/i/w/news/2020/10/14/1231494/540x270/keunikan-taman-mbs-kota-serang-eropa-nya-banten-yang-jadi-tongkrongan-anak-muda.jpg’ width='200px' ><br></br> <b>Taman Wisata Mahoni Bangun Sentosa (MBS)</b><br> Didesain dengan bangunan bergaya Eropa berlokasi di Link Cideheng Kidul, Kelurahan Kemanisan, Kecamatan Curug, Kota Serang, Banten. Tersedia spot foto, berbagai macam wahana hingga tempat keluarga seperti penginapan</br><br>HTM : Rp. 25.000 per orang</br><br>Buka : Buka Pukul 08.00-16.30 WIB");;
+
+var lokasi23 = L.icon ({iconUrl: "{%  static 'marker9.png' %}",
+   iconSize: [30, 30],
+})
+L.marker([ -6.0357865084699185, 106.15404598318777], 
+{icon:lokasi23}).addTo(petaku).bindPopup("<img src='https://assets.pikiran-rakyat.com/crop/0x0:0x0/x/photo/2021/04/03/3576951048.jpg’ width='200px' ><br></br> <b>Masjid Agung Banten </b><br>Masjid Agung Banten adalah salah satu masjid tertua di Indonesia yang dibangun tahun 1556 oleh Sultan Maulana Hasanudin.</br><br>Buka : Waktu : 24 Jam");;
+
+
+		//geojson
+
+	
+		//legenda
+	
+
+function iconByName(name) {
+	return '<i class="icon icon-'+name+'"></i>';
+}
+
+function featureToMarker(feature, latlng) {
+	return L.marker(latlng, {
+		icon: L.divIcon({
+			className: 'marker-'+feature.properties.amenity,
+			html: iconByName(feature.properties.amenity),
+			iconUrl: '../images/markers/'+feature.properties.amenity+'.png',
+			iconSize: [25, 41],
+			iconAnchor: [12, 41],
+			popupAnchor: [1, -34],
+			shadowSize: [41, 41]
+		})
+	});
+}
+
+var baseLayers = [
+	{
+		name: "OpenStreetMap",
+		layer: LayerKita
+	},
+	{
+		name: "OpenCycleMap",
+		layer: L.tileLayer('http://{s}.tile.opencyclemap.org/cycle/{z}/{x}/{y}.png')
+	},
+	{
+		name: "Outdoors",
+		layer: L.tileLayer('http://{s}.tile.thunderforest.com/outdoors/{z}/{x}/{y}.png')
+	}
+];
+
+var overLayers = [
+	{
+		name: "Rumah Sakit",
+		icon: iconByName('Rumah Sakit'),
+		layer: new L.geoJSON(rumah_sakit, {pointToLayer: function (feature,latlng){return L.marker(latlng, {icon:lokasi1})}}).addTo(petaku)
+	},
+	{
+		name: "Puskesmas",
+		icon: iconByName('Puskesmas'),
+		layer: new L.geoJSON(puskesmas, {pointToLayer: function (feature,latlng){return L.marker(latlng, {icon:lokasi2})}}).addTo(petaku)
+	},
+	{
+		name: "Batas Kota Serang",
+		icon: iconByName('Kota Serang'),
+		layer: new L.geoJSON(serang, {color:'red'}).addTo(petaku)
+			},
+	{
+		name: "Pelabuhan",
+		icon: iconByName('Pelabuhan'),
+		layer: new L.geoJSON(pelabuhan, {pointToLayer: function (feature,latlng){return L.marker(latlng, {icon:lokasi6})}}).addTo(petaku)
+			},
+	{
+		name: "Stasiun",
+		icon: iconByName('Stasiun'),
+		layer: new L.geoJSON(stasiun, {pointToLayer: function (feature,latlng){return L.marker(latlng, {icon:lokasi7})}}).addTo(petaku)
+			},
+	{
+		name: "Terminal",
+		icon: iconByName('Terminal'),
+		layer: new L.geoJSON(terminal, {pointToLayer: function (feature,latlng){return L.marker(latlng, {icon:lokasi5})}}).addTo(petaku)
+			},
+	{
+		name: "SPBU",
+		icon: iconByName('Kota Serang'),
+		layer: new L.geoJSON(spbu, {pointToLayer: function (feature,latlng){return L.marker(latlng, {icon:lokasi4})}}).addTo(petaku)
+			},
+
+	{
+		name: "Sarana Ibadah",
+		icon: iconByName('Sarana Ibadah'),
+		layer: new L.geoJSON(saranaibadah, {pointToLayer: function (feature,latlng){return L.marker(latlng, {icon:lokasi3})}}).addTo(petaku)
+	}
+];
+
+var panelLayers = new L.Control.PanelLayers(baseLayers, overLayers);
+
+petaku.addControl(panelLayers);
+	</script>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</html>

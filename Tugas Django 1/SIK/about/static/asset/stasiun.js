@@ -1,0 +1,1 @@
+var stasiun = {"type":"FeatureCollection","features":[{"geometry": {"type": "Point", "coordinates": [106.15853042900005, -6.112385958999937]}, "type": "Feature", "id": 0, "properties": {"REMARK": "Stasiun Kereta Api", "NAMOBJ": "Stasiun Serang", "KONKON": 0.0, "KLSSTA": 0.0, "FGSSTA": 0.0, "LCODE": "CA0140"}}]}

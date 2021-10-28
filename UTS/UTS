@@ -1,0 +1,85 @@
+print("UJIAN TENGAH SEMESTER ")
+print("Nama : Aulia Claudia Rahma")
+print("NIM : 2008030")
+print("Mata Kuliah : UTS Pemrograman Berorientasi Objek")
+print("\n")
+print("======================================================")
+print("            APLIKASI PENCATATAN UANG DIGITAL          ")
+print("======================================================")
+
+saldo=0
+pin=1234
+
+def cek_saldo():
+    print ('Saldo Anda Rp. {}'.format(saldo))
+    
+def tarik_tunai(jml_tarik_tunai):
+    global saldo
+
+    print ('Saldo Anda Rp. {}'.format(saldo))
+    saldo=saldo-jml_tarik_tunai
+    print ("Saldo Anda Sekarang Rp. {}".format(saldo))
+
+def setor_tunai(jml_setor_tunai):
+    global saldo
+    
+    print ('Saldo Anda Rp. {}'.format(saldo))
+    saldo=saldo+jml_setor_tunai
+    print("Saldo Anda Sekarang Rp. {}".format(saldo))
+    
+def transfer(jml_transfer):
+    global saldo
+    
+    print ('Saldo Anda Rp {}'.format(saldo))
+    saldo=saldo-jml_transfer
+    print("Transfer Berhasil, Saldo Anda Sekarang Rp. {}".format(saldo))
+
+def ubah_pin(pin_lama,pin_baru):
+    global pin
+    
+    if not pin_lama == pin:
+        print("Pin Anda salah, silakan coba lagi atau hubungi bank yang terdekat")
+    
+    else:
+        pin == pin_baru
+    print ('Pin ATM Berhasil diperbaharui')
+    
+pilihan = None
+jumlah = None
+pin_lama = None
+pin_baru = None
+
+while True :
+    print(""""
+    SELAMAT DATANG DI BANK AULIA
+    1. CEK SALDO
+    2. TARIK TUNAK
+    3. SETOR TUNAI
+    4. TRANSFER
+    5. UBAH PIN
+    """)
+    
+    pilihan = int(input("Silahkan masukkan opsi : "))
+        if pilihan == 1:
+            cek_saldo()
+            
+        elif pilihan == 2:
+            jumlah=int(input("Masukkan jumlah uang yang akan ditarik : "))
+            tarik_tunai(jumlah)
+    
+        elif pilihan == 3:
+            jumlah=int(input("Masukkan jumlah setor tunai : "))
+            setor_tunai(jumlah)
+            
+        elif pilihan == 4:
+            kode_bank = str(input("Masukkan kode bank : "))
+            no_rek = str(input("Masukkan nomor rekening : "))
+            jumlah = int(input("Masukkan Jumlah Transfer : "))
+            transfer(jumlah)
+        
+        elif pilihan == 5:
+            pin_lama = int(input("Masukkan pin lama Anda : "))
+            pin_baru = int(input("Masukkan pin baru Anda : "))
+            ubah_pin(pin_lama,pin_baru)
+    else
+    print ("Pilihan Salah!")

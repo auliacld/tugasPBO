@@ -1,0 +1,590 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"_GET",
+				"_GET"
+			],
+			[
+				"alig",
+				"align-content\tproperty"
+			],
+			[
+				"padd",
+				"padding-bottom\tproperty"
+			],
+			[
+				"pad",
+				"padding-top\tproperty"
+			],
+			[
+				"lis",
+				"list-style-type\tproperty"
+			],
+			[
+				"bac",
+				"background-color\tproperty"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			],
+			[
+				"st",
+				"style\tTag"
+			],
+			[
+				"judul",
+				"judulhalaman"
+			],
+			[
+				"ha",
+				"halamanlainnya"
+			],
+			[
+				"halaman",
+				"halamanlainnya"
+			],
+			[
+				"cls",
+				"cols\tAttr"
+			],
+			[
+				"for",
+				"form\tTag"
+			],
+			[
+				"arr",
+				"array"
+			],
+			[
+				"el",
+				"else"
+			],
+			[
+				"var",
+				"var2"
+			],
+			[
+				"c",
+				"container"
+			],
+			[
+				"upi",
+				"upiserang"
+			],
+			[
+				"li",
+				"link\tTag"
+			],
+			[
+				"lang",
+				"language\tAttr"
+			],
+			[
+				"i",
+				"i\tTag"
+			],
+			[
+				"no",
+				"noscript\tTag"
+			],
+			[
+				"im",
+				"img"
+			],
+			[
+				"sr",
+				"script\tTag"
+			],
+			[
+				"me",
+				"meta\tTag"
+			],
+			[
+				"div",
+				"div_kalimat"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"fot",
+				"font-family\tproperty"
+			],
+			[
+				"a",
+				"align\tAttr"
+			],
+			[
+				"r",
+				"right"
+			],
+			[
+				"ce",
+				"cellpadding\tAttr"
+			],
+			[
+				"th",
+				"th\tTag"
+			],
+			[
+				"cell",
+				"cellpadding\tAttr"
+			],
+			[
+				"op",
+				"option\tTag"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"border-co",
+				"border-color\tproperty"
+			],
+			[
+				"ac",
+				"action\tAttr"
+			],
+			[
+				"head",
+				"header"
+			],
+			[
+				"co",
+				"cover\tbackground-size"
+			],
+			[
+				"backgrou",
+				"background-size\tproperty"
+			],
+			[
+				"back",
+				"background-repeat\tproperty"
+			],
+			[
+				"font-s",
+				"font-size\tproperty"
+			],
+			[
+				"box",
+				"box-sizing\tproperty"
+			],
+			[
+				"marg",
+				"margin\tproperty"
+			],
+			[
+				"font",
+				"font-family\tproperty"
+			],
+			[
+				"text",
+				"text-align\tproperty"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"sty",
+				"style"
+			],
+			[
+				"js",
+				"js"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/trydjango/trydjango/settings.py",
+			"settings":
+			{
+				"buffer_size": 3248,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/GMTT2F2-ADWPC/Downloads/Try-Django-master/Try-Django-master/README.md",
+			"settings":
+			{
+				"buffer_size": 53,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"About"
+			],
+			[
+				"install package",
+				"Install Package Control"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/TUGAS KULIAH UPI/PBO/Dev/trydjango/trydjango",
+		"/D/TUGAS KULIAH UPI/PBO/Dev/trydjango/trydjango/src",
+		"/D/TUGAS KULIAH UPI/PBO/Dev/trydjango/trydjango/src/trydjango",
+		"/D/TUGAS KULIAH UPI/PBO/Dev/trydjango/trydjango/src/trydjango/trydjango"
+	],
+	"file_history":
+	[
+		"/C/Users/GMTT2F2-ADWPC/Downloads/ioniq/web/index.html",
+		"/C/Users/GMTT2F2-ADWPC/Downloads/web(1).html",
+		"/D/TUGAS KULIAH UPI/Pemrograman Web/UTS/style4.css",
+		"/D/TUGAS KULIAH UPI/Pemrograman Web/UTS/style3.css",
+		"/D/TUGAS KULIAH UPI/Pemrograman Web/UTS/style2.css",
+		"/D/TUGAS KULIAH UPI/Pemrograman Web/UTS/style.css",
+		"/D/TUGAS KULIAH UPI/Pemrograman Web/UTS/berita.php",
+		"/D/TUGAS KULIAH UPI/Pemrograman Web/UTS/SO.php",
+		"/D/TUGAS KULIAH UPI/Pemrograman Web/UTS/visimisi.php",
+		"/D/TUGAS KULIAH UPI/Pemrograman Web/UTS/dosen.php",
+		"/D/TUGAS KULIAH UPI/Pemrograman Web/UTS/sejarah.php",
+		"/D/TUGAS KULIAH UPI/Pemrograman Web/UTS/index.php",
+		"/C/Users/GMTT2F2-ADWPC/Downloads/web.html",
+		"/D/TUGAS KULIAH UPI/kriminologi.html",
+		"/D/TUGAS KULIAH UPI/Deploy/helo.html",
+		"/D/TUGAS KULIAH UPI/Pemrograman Web/UTS/uts.html",
+		"/C/xampp/htdocs/phplatihan/Pertemuan 6/proses_post.php",
+		"/C/xampp/htdocs/phplatihan/Pertemuan 6/Latihan2.php",
+		"/C/xampp/htdocs/phplatihan/Pertemuan 6/Tugas Form/style.css",
+		"/C/xampp/htdocs/webgis/login.php",
+		"/D/struktur html.html",
+		"/D/TUGAS KULIAH UPI/PBO/UTS/UTS",
+		"/C/xampp/htdocs/phplatihan/Pertemuan 6/Tugas Form/proses_post.php",
+		"/C/xampp/htdocs/phplatihan/Pertemuan 6/Tugas Form/Tugas Form.php",
+		"/C/xampp/htdocs/phplatihan/Pertemuan 6/Tugas Form/proses_get.php",
+		"/C/xampp/htdocs/phplatihan/punyarafi/proses_get.php",
+		"/D/TUGAS KULIAH UPI/Penginderaan Jauh/tutupan.geojson",
+		"/C/xampp/htdocs/phplatihan/Pertemuan 6/Tugas Form/print.php",
+		"/C/Users/GMTT2F2-ADWPC/Downloads/proses_get.php",
+		"/C/Users/GMTT2F2-ADWPC/Downloads/form_get.php",
+		"/C/xampp/htdocs/webgis/login.php.html",
+		"/C/xampp/htdocs/webgis/formlogin.php.html",
+		"/C/xampp/htdocs/webgis/login/login.php.html",
+		"/D/TUGAS KULIAH UPI/Pemrograman Web/Pertemuan 6/Latihan GET POST/proses_post.php",
+		"/D/TUGAS KULIAH UPI/Pemrograman Web/Pertemuan 6/Latihan GET POST/proses_get.php",
+		"/C/xampp/htdocs/paperSI/application/config/database.php",
+		"/C/xampp/htdocs/paperSI/application/config/index.html",
+		"/C/xampp/htdocs/paperSI/application/index.html",
+		"/D/TUGAS KULIAH UPI/Pemrograman Web/Pertemuan 6/Tugas Form PHP get post/proses_post_form.php",
+		"/D/TUGAS KULIAH UPI/Pemrograman Web/Pertemuan 6/Tugas Form PHP get post/proses_get_form.php",
+		"/C/xampp/htdocs/phplatihan/Pertemuan 6/Tugas Form/proses_get_form.php",
+		"/D/TUGAS KULIAH UPI/Pemrograman Web/Pertemuan 6/Tugas Form PHP get post/Tugas Form.php",
+		"/D/TUGAS KULIAH UPI/PBO/Tugas Django 1/SIK/static/css/style.css",
+		"/D/TUGAS KULIAH UPI/PBO/Tugas Django 1/SIK/templates/index.html",
+		"/C/xampp/htdocs/webgis/index.html",
+		"/D/TUGAS KULIAH UPI/PBO/Latihan Django/sik/templates/login.php",
+		"/D/TUGAS KULIAH UPI/Pemrograman Web/Pertemuan 5/WEB SIK/Web SIK.html",
+		"/D/TUGAS KULIAH UPI/PBO/Tugas Django 1/SIK/about/templates/about/index.html",
+		"/D/slider.html",
+		"/D/TUGAS KULIAH UPI/Pemrograman Web/CV_Aulia Claudia Rahma_SIK.html",
+		"/D/TUGAS KULIAH UPI/PBO/Latihan Django/sik/templates/style.css",
+		"/D/TUGAS KULIAH UPI/PBO/Latihan Django/sik/templates/halamanbaru.html",
+		"/D/TUGAS KULIAH UPI/PBO/Tugas Django 1/SIK/SIK/settings.py",
+		"/D/TUGAS KULIAH UPI/PBO/Tugas Django 1/SIK/about/views.py",
+		"/D/TUGAS KULIAH UPI/PBO/Tugas Django 1/SIK/about/urls.py",
+		"/D/TUGAS KULIAH UPI/PBO/Tugas Django 1/SIK/SIK/urls.py",
+		"/D/TUGAS KULIAH UPI/PBO/Tugas Django 1/SIK/SIK/views.py",
+		"/D/TUGAS KULIAH UPI/PBO/Latihan Django/sik/sik/views.py",
+		"/D/TUGAS KULIAH UPI/PBO/Latihan Django/sik/sik/urls.py",
+		"/D/TUGAS KULIAH UPI/Pemrograman Web/Pertemuan 5/Kuis/bootstap.html",
+		"/D/TUGAS KULIAH UPI/Pemrograman Web/Pertemuan 5/Latihan W3School PHP/PHP From Complete Example 1.php",
+		"/D/TUGAS KULIAH UPI/PBO/Latihan Django/sik/sik/settings.py",
+		"/D/TUGAS KULIAH UPI/PBO/Latihan Django/sik/sik/templates/halamanlainnya.html",
+		"/C/xampp/htdocs/webgis/login/style.css",
+		"/C/xampp/htdocs/webgis/login/formlogin.php.html",
+		"/D/TUGAS KULIAH UPI/PBO/Latihan Django/sik/sik2020/views.py",
+		"/C/Users/GMTT2F2-ADWPC/Downloads/myproject/myproject/myproject/urls.py",
+		"/C/Users/GMTT2F2-ADWPC/Downloads/myproject/myproject/blog/urls.py",
+		"/C/Users/GMTT2F2-ADWPC/Downloads/myproject/myproject/blog/views.py",
+		"/C/xampp/htdocs/webgis/login/form_login.php",
+		"/C/xampp/htdocs/webgis/form_login.php",
+		"/C/xampp/htdocs/webgis/login/index.html",
+		"/D/TUGAS KULIAH UPI/PBO/Latihan Django/sik/sik/templates/halamanbaru.html",
+		"/D/TUGAS KULIAH UPI/Pemrograman Web/Pertemuan 5/bootstap.html",
+		"/C/Users/GMTT2F2-ADWPC/Downloads/kuis2.html",
+		"/C/xampp/htdocs/phplatihan/Pertemuan 6/Latihan3.php",
+		"/C/xampp/htdocs/phplatihan/Pertemuan 6/proses_get.php",
+		"/C/xampp/htdocs/phplatihan/Pertemuan 6/Latihan1.php",
+		"/D/TUGAS KULIAH UPI/Pemrograman Web/Pertemuan 4/Website Aulia/bootstrap.html",
+		"/D/webtepani.html",
+		"/D/TUGAS KULIAH UPI/Pemrograman Web/Pertemuan 5/js",
+		"/D/TUGAS KULIAH UPI/Pemrograman Web/Pertemuan 5/css",
+		"/C/xampp/htdocs/phplatihan/Latihan6.php",
+		"/C/xampp/htdocs/phplatihan/Latihan5.php",
+		"/C/xampp/htdocs/phplatihan/Latihan3.php",
+		"/C/xampp/htdocs/phplatihan/Latihan2.php",
+		"/C/xampp/htdocs/phplatihan/Latihan1.php",
+		"/D/TUGAS KULIAH UPI/Pemrograman Web/Pertemuan 3/Latihan Modul/definitionstyle.css",
+		"/D/TUGAS KULIAH UPI/Pemrograman Web/Pertemuan 3/Latihan Modul/Aulia Latihan3_1.html",
+		"/D/TUGAS KULIAH UPI/Pemrograman Web/Pertemuan 3/Latihan Modul/Aulia latihan2_2 .html",
+		"/D/TUGAS KULIAH UPI/Pemrograman Web/Pertemuan 2.html",
+		"/D/TUGAS KULIAH UPI/Pemrograman Web/Pertemuan 3/CV_Aulia Claudia Rahma_SIK.html",
+		"/D/TUGAS KULIAH UPI/Pemrograman Web/Sistem Informasi Kelautan.html",
+		"/D/TUGAS KULIAH UPI/Pemrograman Web/Latihan7_Aulia.html",
+		"/D/TUGAS KULIAH UPI/Pemrograman Web/Pertemuan 5/Web SIK.html",
+		"/C/Users/GMTT2F2-ADWPC/Downloads/webstepani.html",
+		"/D/TUGAS KULIAH UPI/Pemrograman Web/Latihan1pertemuan4.html",
+		"/D/TUGAS KULIAH UPI/Pemrograman Web/Latihan3pertemuan4.html",
+		"/D/TUGAS KULIAH UPI/Pemrograman Web/Pertemuan 4/Website Aulia/signup.html",
+		"/D/TUGAS KULIAH UPI/Pemrograman Web/Pertemuan 4/Latihan Modul/JS_11.html",
+		"/D/TUGAS KULIAH UPI/Pemrograman Web/Pertemuan 4/Latihan Modul/JS_10.html",
+		"/D/TUGAS KULIAH UPI/Pemrograman Web/Pertemuan 4/Latihan Modul/JS_6.html",
+		"/D/TUGAS KULIAH UPI/Pemrograman Web/Pertemuan 4/Latihan Modul/JS_7.html",
+		"/D/TUGAS KULIAH UPI/Pemrograman Web/Pertemuan 4/Latihan Modul/JS_4.html",
+		"/D/TUGAS KULIAH UPI/Pemrograman Web/Pertemuan 4/Latihan Modul/JS_5.html",
+		"/D/TUGAS KULIAH UPI/Pemrograman Web/Pertemuan 4/Latihan Modul/JS_8.html",
+		"/D/TUGAS KULIAH UPI/Pemrograman Web/Pertemuan 4/Latihan Modul/JS_9.html",
+		"/D/TUGAS KULIAH UPI/Pemrograman Web/Pertemuan 4/Latihan Modul/JS_2.html",
+		"/D/TUGAS KULIAH UPI/Pemrograman Web/Pertemuan 4/Latihan Modul/kode_javascript.js",
+		"/D/TUGAS KULIAH UPI/Pemrograman Web/Pertemuan 4/Latihan Modul/JS_3.html",
+		"/D/TUGAS KULIAH UPI/Pemrograman Web/Pertemuan 3/Latihan Modul/Aulia latihan2_ 3.html",
+		"/D/TUGAS KULIAH UPI/Pemrograman Web/Pertemuan 4/Latihan Modul/JS_1.html",
+		"/D/TUGAS KULIAH UPI/Pemrograman Web/LatihanP4.htmml",
+		"/D/TUGAS KULIAH UPI/Pemrograman Web/Pertemuan 3/mystyle.css",
+		"/D/TUGAS KULIAH UPI/Pemrograman Web/Pertemuan 3/CV.html",
+		"/D/TUGAS KULIAH UPI/Pemrograman Web/Pertemuan 2/Aulia Latihan2_7.html",
+		"/D/TUGAS KULIAH UPI/Pemrograman Web/Pertemuan 2/Aulia Home.html",
+		"/D/TUGAS KULIAH UPI/Pemrograman Web/Pertemuan 2/Latihan W3School/Forms-Exercise 4.html",
+		"/D/TUGAS KULIAH UPI/Pemrograman Web/Pertemuan 2/Form.html",
+		"/D/TUGAS KULIAH UPI/Pemrograman Web/Pertemuan 2/Latihan W3School/Forms-Exercise 5.html",
+		"/D/TUGAS KULIAH UPI/Pemrograman Web/Pertemuan 2/Latihan W3School/Tables-Exercise 6.html",
+		"/D/TUGAS KULIAH UPI/Pemrograman Web/Pertemuan 2/Latihan W3School/Tables-Exercise 5.html",
+		"/D/TUGAS KULIAH UPI/Pemrograman Web/Pertemuan 2/Latihan W3School/Tables-Exercise 4.html",
+		"/D/TUGAS KULIAH UPI/Pemrograman Web/Pertemuan 2/Latihan W3School/Tables-Exercise 3.html",
+		"/D/TUGAS KULIAH UPI/Pemrograman Web/Pertemuan 2/Latihan W3School/Tables-Exercise 2.html",
+		"/D/TUGAS KULIAH UPI/Pemrograman Web/Pertemuan 2/Latihan W3School/Tables-Exercise 1.html",
+		"/D/TUGAS KULIAH UPI/Pemrograman Web/Pertemuan 2/Aulia menu.html.html",
+		"/D/TUGAS KULIAH UPI/Pemrograman Web/Pertemuan 2/Aulia MenuSik.html"
+	],
+	"find":
+	{
+		"height": 29.0
+	},
+	"find_in_files":
+	{
+		"height": 113.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"sistem in",
+			"akreditas",
+			"sejarah",
+			"berita",
+			"seja",
+			"post-date",
+			"post post-blog",
+			"kuriku"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/trydjango/trydjango/settings.py",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 3248,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/GMTT2F2-ADWPC/Downloads/Try-Django-master/Try-Django-master/README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 53,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 41.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "trydjango.sublime-project",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 182.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

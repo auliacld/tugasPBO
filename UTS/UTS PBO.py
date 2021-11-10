@@ -15,12 +15,15 @@ def cek_saldo():
     print ('Saldo Umum Anda Saat ini adalah Rp. {}'.format(saldo_umum))
     print ('Saldo Tabungan Anda Saat ini adalah Rp. {}'.format(saldo_tabungan))
 
-def tarik_tunai(jml_tarik_tunai):
+def tarik_tunai(jml_tarik_tunai,jumlah_saldo_umum):
     global saldo_umum,saldo_tabungan
-    
+
     print ('Saldo Umum Anda saat ini Rp. {}'.format(saldo_umum))
     jumlah_saldo_umum=saldo_umum-jml_tarik_tunai
     print ('Sisa saldo Umum Anda saat ini Rp. {}'.format(jumlah_saldo_umum))
+
+def tarik_tunai(jml_tarik_tunai,jumlah_saldo_tabungan):
+    global saldo_umum,saldo_tabungan
 
     print ("Saldo Tabungan Anda saat ini Rp. {}".format(saldo_tabungan))
     jumlah_saldo_tabungan=saldo_tabungan-jml_tarik_tunai

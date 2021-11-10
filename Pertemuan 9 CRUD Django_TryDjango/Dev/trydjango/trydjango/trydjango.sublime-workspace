@@ -1,0 +1,1304 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"_GET",
+				"_GET"
+			],
+			[
+				"alig",
+				"align-content\tproperty"
+			],
+			[
+				"padd",
+				"padding-bottom\tproperty"
+			],
+			[
+				"pad",
+				"padding-top\tproperty"
+			],
+			[
+				"lis",
+				"list-style-type\tproperty"
+			],
+			[
+				"bac",
+				"background-color\tproperty"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			],
+			[
+				"st",
+				"style\tTag"
+			],
+			[
+				"judul",
+				"judulhalaman"
+			],
+			[
+				"ha",
+				"halamanlainnya"
+			],
+			[
+				"halaman",
+				"halamanlainnya"
+			],
+			[
+				"cls",
+				"cols\tAttr"
+			],
+			[
+				"for",
+				"form\tTag"
+			],
+			[
+				"arr",
+				"array"
+			],
+			[
+				"el",
+				"else"
+			],
+			[
+				"var",
+				"var2"
+			],
+			[
+				"c",
+				"container"
+			],
+			[
+				"upi",
+				"upiserang"
+			],
+			[
+				"li",
+				"link\tTag"
+			],
+			[
+				"lang",
+				"language\tAttr"
+			],
+			[
+				"i",
+				"i\tTag"
+			],
+			[
+				"no",
+				"noscript\tTag"
+			],
+			[
+				"im",
+				"img"
+			],
+			[
+				"sr",
+				"script\tTag"
+			],
+			[
+				"me",
+				"meta\tTag"
+			],
+			[
+				"div",
+				"div_kalimat"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"fot",
+				"font-family\tproperty"
+			],
+			[
+				"a",
+				"align\tAttr"
+			],
+			[
+				"r",
+				"right"
+			],
+			[
+				"ce",
+				"cellpadding\tAttr"
+			],
+			[
+				"th",
+				"th\tTag"
+			],
+			[
+				"cell",
+				"cellpadding\tAttr"
+			],
+			[
+				"op",
+				"option\tTag"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"border-co",
+				"border-color\tproperty"
+			],
+			[
+				"ac",
+				"action\tAttr"
+			],
+			[
+				"head",
+				"header"
+			],
+			[
+				"co",
+				"cover\tbackground-size"
+			],
+			[
+				"backgrou",
+				"background-size\tproperty"
+			],
+			[
+				"back",
+				"background-repeat\tproperty"
+			],
+			[
+				"font-s",
+				"font-size\tproperty"
+			],
+			[
+				"box",
+				"box-sizing\tproperty"
+			],
+			[
+				"marg",
+				"margin\tproperty"
+			],
+			[
+				"font",
+				"font-family\tproperty"
+			],
+			[
+				"text",
+				"text-align\tproperty"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"sty",
+				"style"
+			],
+			[
+				"js",
+				"js"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/products/migrations/__init__.py",
+			"settings":
+			{
+				"buffer_size": 0,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/products/templates/products/product_create.html",
+			"settings":
+			{
+				"buffer_size": 184,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/products/templates/products/product_detail.html",
+			"settings":
+			{
+				"buffer_size": 147,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/templates/about.html",
+			"settings":
+			{
+				"buffer_size": 540,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/templates/contact.html",
+			"settings":
+			{
+				"buffer_size": 104,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/templates/navbar.html",
+			"settings":
+			{
+				"buffer_size": 105,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/templates/base.html",
+			"settings":
+			{
+				"buffer_size": 223,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/templates/home.html",
+			"settings":
+			{
+				"buffer_size": 119,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/trydjango/__init__.py",
+			"settings":
+			{
+				"buffer_size": 0,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/trydjango/settings.py",
+			"settings":
+			{
+				"buffer_size": 3219,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/trydjango/urls.py",
+			"settings":
+			{
+				"buffer_size": 1098,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/trydjango/wsgi.py",
+			"settings":
+			{
+				"buffer_size": 395,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/manage.py",
+			"settings":
+			{
+				"buffer_size": 541,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/products/__init__.py",
+			"settings":
+			{
+				"buffer_size": 0,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/products/apps.py",
+			"settings":
+			{
+				"buffer_size": 90,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/products/admin.py",
+			"settings":
+			{
+				"buffer_size": 91,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/products/forms.py",
+			"settings":
+			{
+				"buffer_size": 1717,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/products/models.py",
+			"settings":
+			{
+				"buffer_size": 594,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/products/tests.py",
+			"settings":
+			{
+				"buffer_size": 59,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/products/urls.py",
+			"settings":
+			{
+				"buffer_size": 554,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/products/views.py",
+			"settings":
+			{
+				"buffer_size": 1377,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"About"
+			],
+			[
+				"install package",
+				"Install Package Control"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/TUGAS KULIAH UPI/PBO/Dev/trydjango/trydjango",
+		"/D/TUGAS KULIAH UPI/PBO/Dev/trydjango/trydjango/src",
+		"/D/TUGAS KULIAH UPI/PBO/Dev/trydjango/trydjango/src/templates",
+		"/D/TUGAS KULIAH UPI/PBO/Dev/trydjango/trydjango/src/trydjango"
+	],
+	"file_history":
+	[
+		"/D/TUGAS KULIAH UPI/PBO/Dev/trydjango/trydjango/src/products/templates/products/product_create.html",
+		"/D/TUGAS KULIAH UPI/PBO/Dev/trydjango/trydjango/src/products/templates/products/product_delete.html",
+		"/D/TUGAS KULIAH UPI/PBO/Dev/trydjango/trydjango/src/products/templates/products/product_detail.html",
+		"/D/TUGAS KULIAH UPI/PBO/Dev/trydjango/trydjango/src/products/templates/products/product_list.html",
+		"/D/TUGAS KULIAH UPI/PBO/Dev/trydjango/trydjango/src/products/migrations/0005_auto_20180708_1955.py",
+		"/D/TUGAS KULIAH UPI/PBO/Dev/trydjango/trydjango/src/products/migrations/0004_auto_20180702_2213.py",
+		"/D/TUGAS KULIAH UPI/PBO/Dev/trydjango/trydjango/src/products/migrations/0003_auto_20180702_2213.py",
+		"/D/TUGAS KULIAH UPI/PBO/Dev/trydjango/trydjango/src/products/migrations/0002_product_featured.py",
+		"/D/TUGAS KULIAH UPI/PBO/Dev/trydjango/trydjango/src/products/migrations/0001_initial.py",
+		"/D/TUGAS KULIAH UPI/PBO/Dev/trydjango/trydjango/src/courses/migrations/__init__.py",
+		"/D/TUGAS KULIAH UPI/PBO/Dev/trydjango/trydjango/src/courses/migrations/0001_initial.py",
+		"/D/TUGAS KULIAH UPI/PBO/Dev/trydjango/trydjango/src/courses/views.py",
+		"/D/TUGAS KULIAH UPI/PBO/Dev/trydjango/trydjango/src/courses/urls.py",
+		"/D/TUGAS KULIAH UPI/PBO/Dev/trydjango/trydjango/src/courses/tests.py",
+		"/D/TUGAS KULIAH UPI/PBO/Dev/trydjango/trydjango/src/pages/migrations/__init__.py",
+		"/D/TUGAS KULIAH UPI/PBO/Dev/trydjango/trydjango/src/pages/views.py",
+		"/D/TUGAS KULIAH UPI/PBO/Dev/trydjango/trydjango/src/pages/tests.py",
+		"/D/TUGAS KULIAH UPI/PBO/Dev/trydjango/trydjango/src/pages/models.py",
+		"/D/TUGAS KULIAH UPI/PBO/Dev/trydjango/trydjango/src/manage.py",
+		"/D/TUGAS KULIAH UPI/PBO/Dev/trydjango/trydjango/src/blog/tests.py",
+		"/D/TUGAS KULIAH UPI/PBO/Dev/trydjango/trydjango/src/pages/apps.py",
+		"/D/TUGAS KULIAH UPI/PBO/Dev/trydjango/trydjango/src/pages/admin.py",
+		"/D/TUGAS KULIAH UPI/PBO/Dev/trydjango/trydjango/src/blog/views.py",
+		"/D/TUGAS KULIAH UPI/PBO/Dev/trydjango/trydjango/src/blog/urls.py",
+		"/D/TUGAS KULIAH UPI/PBO/Dev/trydjango/trydjango/src/courses/__init__.py",
+		"/D/TUGAS KULIAH UPI/PBO/Dev/trydjango/trydjango/src/courses/models.py",
+		"/D/TUGAS KULIAH UPI/PBO/Dev/trydjango/trydjango/src/courses/forms.py",
+		"/D/TUGAS KULIAH UPI/PBO/Dev/trydjango/trydjango/src/courses/apps.py",
+		"/D/TUGAS KULIAH UPI/PBO/Dev/trydjango/trydjango/src/courses/admin.py",
+		"/D/TUGAS KULIAH UPI/PBO/Dev/trydjango/trydjango/src/courses/templates/courses/course_update.html",
+		"/D/TUGAS KULIAH UPI/PBO/Dev/trydjango/trydjango/src/courses/templates/courses/course_list.html",
+		"/D/TUGAS KULIAH UPI/PBO/Dev/trydjango/trydjango/src/courses/templates/courses/course_detail.html",
+		"/D/TUGAS KULIAH UPI/PBO/Dev/trydjango/trydjango/src/courses/templates/courses/course_delete.html",
+		"/D/TUGAS KULIAH UPI/PBO/Dev/trydjango/trydjango/src/courses/templates/courses/course_create.html",
+		"/D/TUGAS KULIAH UPI/PBO/Dev/trydjango/trydjango/src/pages/__init__.py",
+		"/D/TUGAS KULIAH UPI/PBO/Dev/trydjango/trydjango/src/blog/models.py",
+		"/D/TUGAS KULIAH UPI/PBO/Dev/trydjango/trydjango/src/blog/forms.py",
+		"/D/TUGAS KULIAH UPI/PBO/Dev/trydjango/trydjango/src/blog/apps.py",
+		"/D/TUGAS KULIAH UPI/PBO/Dev/trydjango/trydjango/src/blog/migrations/0001_initial.py",
+		"/D/TUGAS KULIAH UPI/PBO/Dev/trydjango/trydjango/src/blog/migrations/__init__.py",
+		"/D/TUGAS KULIAH UPI/PBO/Dev/trydjango/trydjango/src/blog/templates/articles/article_create.html",
+		"/D/TUGAS KULIAH UPI/PBO/Dev/trydjango/trydjango/src/blog/templates/articles/article_delete.html",
+		"/D/TUGAS KULIAH UPI/PBO/Dev/trydjango/trydjango/src/blog/templates/articles/article_detail.html",
+		"/D/TUGAS KULIAH UPI/PBO/Dev/trydjango/trydjango/src/blog/templates/articles/article_list.html",
+		"/D/TUGAS KULIAH UPI/PBO/Dev/trydjango/trydjango/src/blog/__init__.py",
+		"/D/TUGAS KULIAH UPI/PBO/Dev/trydjango/trydjango/src/blog/admin.py",
+		"/C/Users/GMTT2F2-ADWPC/Downloads/Try-Django-master/Try-Django-master/README.md",
+		"/C/Users/GMTT2F2-ADWPC/Downloads/ioniq/web/index.html",
+		"/C/Users/GMTT2F2-ADWPC/Downloads/web(1).html",
+		"/D/TUGAS KULIAH UPI/Pemrograman Web/UTS/style4.css",
+		"/D/TUGAS KULIAH UPI/Pemrograman Web/UTS/style3.css",
+		"/D/TUGAS KULIAH UPI/Pemrograman Web/UTS/style2.css",
+		"/D/TUGAS KULIAH UPI/Pemrograman Web/UTS/style.css",
+		"/D/TUGAS KULIAH UPI/Pemrograman Web/UTS/berita.php",
+		"/D/TUGAS KULIAH UPI/Pemrograman Web/UTS/SO.php",
+		"/D/TUGAS KULIAH UPI/Pemrograman Web/UTS/visimisi.php",
+		"/D/TUGAS KULIAH UPI/Pemrograman Web/UTS/dosen.php",
+		"/D/TUGAS KULIAH UPI/Pemrograman Web/UTS/sejarah.php",
+		"/D/TUGAS KULIAH UPI/Pemrograman Web/UTS/index.php",
+		"/C/Users/GMTT2F2-ADWPC/Downloads/web.html",
+		"/D/TUGAS KULIAH UPI/kriminologi.html",
+		"/D/TUGAS KULIAH UPI/Deploy/helo.html",
+		"/D/TUGAS KULIAH UPI/Pemrograman Web/UTS/uts.html",
+		"/C/xampp/htdocs/phplatihan/Pertemuan 6/proses_post.php",
+		"/C/xampp/htdocs/phplatihan/Pertemuan 6/Latihan2.php",
+		"/C/xampp/htdocs/phplatihan/Pertemuan 6/Tugas Form/style.css",
+		"/C/xampp/htdocs/webgis/login.php",
+		"/D/struktur html.html",
+		"/D/TUGAS KULIAH UPI/PBO/UTS/UTS",
+		"/C/xampp/htdocs/phplatihan/Pertemuan 6/Tugas Form/proses_post.php",
+		"/C/xampp/htdocs/phplatihan/Pertemuan 6/Tugas Form/Tugas Form.php",
+		"/C/xampp/htdocs/phplatihan/Pertemuan 6/Tugas Form/proses_get.php",
+		"/C/xampp/htdocs/phplatihan/punyarafi/proses_get.php",
+		"/D/TUGAS KULIAH UPI/Penginderaan Jauh/tutupan.geojson",
+		"/C/xampp/htdocs/phplatihan/Pertemuan 6/Tugas Form/print.php",
+		"/C/Users/GMTT2F2-ADWPC/Downloads/proses_get.php",
+		"/C/Users/GMTT2F2-ADWPC/Downloads/form_get.php",
+		"/C/xampp/htdocs/webgis/login.php.html",
+		"/C/xampp/htdocs/webgis/formlogin.php.html",
+		"/C/xampp/htdocs/webgis/login/login.php.html",
+		"/D/TUGAS KULIAH UPI/Pemrograman Web/Pertemuan 6/Latihan GET POST/proses_post.php",
+		"/D/TUGAS KULIAH UPI/Pemrograman Web/Pertemuan 6/Latihan GET POST/proses_get.php",
+		"/C/xampp/htdocs/paperSI/application/config/database.php",
+		"/C/xampp/htdocs/paperSI/application/config/index.html",
+		"/C/xampp/htdocs/paperSI/application/index.html",
+		"/D/TUGAS KULIAH UPI/Pemrograman Web/Pertemuan 6/Tugas Form PHP get post/proses_post_form.php",
+		"/D/TUGAS KULIAH UPI/Pemrograman Web/Pertemuan 6/Tugas Form PHP get post/proses_get_form.php",
+		"/C/xampp/htdocs/phplatihan/Pertemuan 6/Tugas Form/proses_get_form.php",
+		"/D/TUGAS KULIAH UPI/Pemrograman Web/Pertemuan 6/Tugas Form PHP get post/Tugas Form.php",
+		"/D/TUGAS KULIAH UPI/PBO/Tugas Django 1/SIK/static/css/style.css",
+		"/D/TUGAS KULIAH UPI/PBO/Tugas Django 1/SIK/templates/index.html",
+		"/C/xampp/htdocs/webgis/index.html",
+		"/D/TUGAS KULIAH UPI/PBO/Latihan Django/sik/templates/login.php",
+		"/D/TUGAS KULIAH UPI/Pemrograman Web/Pertemuan 5/WEB SIK/Web SIK.html",
+		"/D/TUGAS KULIAH UPI/PBO/Tugas Django 1/SIK/about/templates/about/index.html",
+		"/D/slider.html",
+		"/D/TUGAS KULIAH UPI/Pemrograman Web/CV_Aulia Claudia Rahma_SIK.html",
+		"/D/TUGAS KULIAH UPI/PBO/Latihan Django/sik/templates/style.css",
+		"/D/TUGAS KULIAH UPI/PBO/Latihan Django/sik/templates/halamanbaru.html",
+		"/D/TUGAS KULIAH UPI/PBO/Tugas Django 1/SIK/SIK/settings.py",
+		"/D/TUGAS KULIAH UPI/PBO/Tugas Django 1/SIK/about/views.py",
+		"/D/TUGAS KULIAH UPI/PBO/Tugas Django 1/SIK/about/urls.py",
+		"/D/TUGAS KULIAH UPI/PBO/Tugas Django 1/SIK/SIK/urls.py",
+		"/D/TUGAS KULIAH UPI/PBO/Tugas Django 1/SIK/SIK/views.py",
+		"/D/TUGAS KULIAH UPI/PBO/Latihan Django/sik/sik/views.py",
+		"/D/TUGAS KULIAH UPI/PBO/Latihan Django/sik/sik/urls.py",
+		"/D/TUGAS KULIAH UPI/Pemrograman Web/Pertemuan 5/Kuis/bootstap.html",
+		"/D/TUGAS KULIAH UPI/Pemrograman Web/Pertemuan 5/Latihan W3School PHP/PHP From Complete Example 1.php",
+		"/D/TUGAS KULIAH UPI/PBO/Latihan Django/sik/sik/settings.py",
+		"/D/TUGAS KULIAH UPI/PBO/Latihan Django/sik/sik/templates/halamanlainnya.html",
+		"/C/xampp/htdocs/webgis/login/style.css",
+		"/C/xampp/htdocs/webgis/login/formlogin.php.html",
+		"/D/TUGAS KULIAH UPI/PBO/Latihan Django/sik/sik2020/views.py",
+		"/C/Users/GMTT2F2-ADWPC/Downloads/myproject/myproject/myproject/urls.py",
+		"/C/Users/GMTT2F2-ADWPC/Downloads/myproject/myproject/blog/urls.py",
+		"/C/Users/GMTT2F2-ADWPC/Downloads/myproject/myproject/blog/views.py",
+		"/C/xampp/htdocs/webgis/login/form_login.php",
+		"/C/xampp/htdocs/webgis/form_login.php",
+		"/C/xampp/htdocs/webgis/login/index.html",
+		"/D/TUGAS KULIAH UPI/PBO/Latihan Django/sik/sik/templates/halamanbaru.html",
+		"/D/TUGAS KULIAH UPI/Pemrograman Web/Pertemuan 5/bootstap.html",
+		"/C/Users/GMTT2F2-ADWPC/Downloads/kuis2.html",
+		"/C/xampp/htdocs/phplatihan/Pertemuan 6/Latihan3.php",
+		"/C/xampp/htdocs/phplatihan/Pertemuan 6/proses_get.php",
+		"/C/xampp/htdocs/phplatihan/Pertemuan 6/Latihan1.php",
+		"/D/TUGAS KULIAH UPI/Pemrograman Web/Pertemuan 4/Website Aulia/bootstrap.html",
+		"/D/webtepani.html",
+		"/D/TUGAS KULIAH UPI/Pemrograman Web/Pertemuan 5/js"
+	],
+	"find":
+	{
+		"height": 29.0
+	},
+	"find_in_files":
+	{
+		"height": 113.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"sistem in",
+			"akreditas",
+			"sejarah",
+			"berita",
+			"seja",
+			"post-date",
+			"post post-blog",
+			"kuriku"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 12,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/products/migrations/__init__.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 20,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/products/templates/products/product_create.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 184,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								168,
+								168
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 19,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/products/templates/products/product_detail.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 147,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								147,
+								147
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/templates/about.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 540,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								517,
+								517
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 247.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/templates/contact.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 104,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								26,
+								26
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/templates/navbar.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 105,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								98,
+								98
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/templates/base.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 223,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								215,
+								215
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "src/templates/home.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 119,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								119,
+								119
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "src/trydjango/__init__.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "src/trydjango/settings.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3219,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								309,
+								309
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "src/trydjango/urls.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1098,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								764,
+								764
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "src/trydjango/wsgi.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 395,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								224,
+								224
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "src/manage.py",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 541,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "src/products/__init__.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 18,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "src/products/apps.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 90,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								34,
+								34
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 16,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "src/products/admin.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 91,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								62,
+								62
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 17,
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "src/products/forms.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1717,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								973,
+								973
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "src/products/models.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 594,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								463,
+								463
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 18,
+					"file": "src/products/tests.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 59,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								59,
+								59
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 19,
+					"file": "src/products/urls.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 554,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								181,
+								181
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 20,
+					"file": "src/products/views.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1377,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								690,
+								690
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 41.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "trydjango.sublime-project",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 182.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

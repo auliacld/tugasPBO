@@ -1,0 +1,49 @@
+{% extends 'enroll/base.html '%}
+{% block content %}
+<div class="row">
+    <div class="col-sm-4">
+        <h4 class="text-center alert alert-info"> Tambah Pembelian </h4>
+        <form action="" method="POST">
+        {% csrf_token %}
+        {{form.as_p}}
+        <input type="submit" class="btn btn-success" value="Tambah">
+        </form>
+    </div>
+
+    <div class="col-sm-7 offset-1">
+        <h4 class="text-center alert alert-info"> Data Penjualan Barang </h4>
+        {% if stu %}
+            <table class="table table-sm">
+            <thead>
+                <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">Nama Barang</th>
+                    <th scope="col">Jumlah Barang</th>
+                    <th scope="col">Harga Barang</th>
+                    <th scope="col">Aksi</th>
+                </tr>
+            </thead>
+            <tbody>
+            {% for st in stu %}
+                <tr>
+                    <th scope="row">{{st.id}}</th>
+                    <td>{{st.nama_barang}}</td>
+                    <td>{{st.jumlah_barang}}</td>
+                    <td>{{st.harga_barang}}</td>
+                    <td>
+                        <a href="{% url 'updatedata' st.id %}" class="btn btn-warning btn-sm">Ubah</a>
+                        <form action="{% url 'deletedata' st.id %}" method="post" class="d-inline">{% csrf_token %}
+                            <input type="submit" class="btn btn-danger btn-sm" value="Hapus">
+                        </form>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+          </table>
+        {% else %}
+            <h4 class="text-center alert alert-warning"> No Records</h4>
+        {% endif %}
+    </div>
+
+</div>
+{% endblock content %}
